@@ -1,0 +1,52 @@
+# === Python artefacts ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Virtual envs
+venv/
+.env/
+.env*/
+virtualenv/
+
+# Logs / debug
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Selenium / runtime artifacts
+page_init.png
+page_load_timeout.png
+*.png
+!ejemplo_config_from/*.jpeg
+!ejemplo_config_from/*.png
+
+# Cache / tool folders
+.cache/
+webdriver*/
+chromedriver*/
+
+# System / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated email lists / used markers (optional keep original if needed)
+*_used.txt
+emails_generados.txt
+
+# Reject large video/capture accidentally
+*.mp4
+*.webm
+
+# Requirements lock (add if you generate)
+poetry.lock
+Pipfile.lock
+
+# Misc
+*.orig
