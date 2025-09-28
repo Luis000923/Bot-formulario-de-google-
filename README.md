@@ -31,13 +31,30 @@ Las siguientes pautas mejoran la tasa de envío exitoso. En la carpeta `ejemplo_
 9. Mantén opciones de selección (radio / checkbox / desplegable) con al menos 1 opción visible.
 10. Si el formulario exige login y `ALLOW_MANUAL_LOGIN=true`, podrás iniciar sesión manualmente en la ventana emergente antes de que siga el bot.
 
+### Capturas de configuración
+
+Las siguientes imágenes se muestran directamente (si no cargan en GitHub, revisa que el folder exista y que respeten mayúsculas/minúsculas).
+
 | Captura | Descripción |
 |---------|-------------|
-| `config.jpeg` | Ajustes generales (sin limitar a 1 respuesta / sin recopilar correos forzados). |
-| `config1.jpeg` | Ejemplo de pregunta correcta para correo (texto corto). |
-| `config2.jpeg` | Diferentes tipos de preguntas soportadas (radio, checkbox, lista). |
-| `config3.jpeg` | Flujo de secciones con botón Siguiente visible. |
-| `descargar datos de formulario.png` | Vista de gestión de respuestas / exportación. |
+| ![Ajustes generales](ejemplo_config_from/config.jpeg) | Ajustes generales (sin limitar a 1 respuesta / sin recopilar correos forzados). |
+| ![Pregunta de correo](ejemplo_config_from/config1.jpeg) | Ejemplo de pregunta correcta para correo (texto corto). |
+| ![Tipos de preguntas](ejemplo_config_from/config2.jpeg) | Diferentes tipos de preguntas soportadas (radio, checkbox, lista). |
+| ![Flujo de secciones](ejemplo_config_from/config3.jpeg) | Flujo de secciones con botón Siguiente visible. |
+| ![Gestión de respuestas](ejemplo_config_from/descargar%20datos%20de%20formulario.png) | Vista de gestión de respuestas / exportación. |
+
+<details>
+<summary>Ver imágenes con etiquetas HTML (útil si quieres ajustar tamaños)</summary>
+
+<p>
+<img src="ejemplo_config_from/config.jpeg" alt="Ajustes generales" width="340" />
+<img src="ejemplo_config_from/config1.jpeg" alt="Pregunta correo" width="340" />
+<img src="ejemplo_config_from/config2.jpeg" alt="Tipos de preguntas" width="340" />
+<img src="ejemplo_config_from/config3.jpeg" alt="Flujo secciones" width="340" />
+<img src="ejemplo_config_from/descargar%20datos%20de%20formulario.png" alt="Gestión respuestas" width="340" />
+</p>
+
+</details>
 
 Si algún paso falla, revisa estas condiciones primero.
 
@@ -161,7 +178,7 @@ python bot.py
 ```
 
 ## Archivo de nombres y apellidos
-Se incluye `nombres_apellidos.txt` con 1000 combinaciones básicas que puedes reutilizar para construir tus propios correos.
+Se incluye `nombres_apellidos.txt` un poar de combinaciones básicas que puedes reutilizar para construir tus propios correos.
 
 ---
 **Aviso**: Este proyecto es educativo. El autor no se responsabiliza por usos indebidos.
